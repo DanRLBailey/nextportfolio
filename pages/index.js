@@ -78,6 +78,7 @@ export default function Home() {
               title={timelineEvent.Title}
               subtitle={timelineEvent.Subtitle}
               date={timelineEvent.Date}
+              key={index}
             ></Event>
           ))}
         </div>

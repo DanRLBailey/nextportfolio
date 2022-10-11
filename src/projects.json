@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "Vue Holidays",
+    "Description": "A Vue project that shows the best days to book holidays, and maximise time off vs annual leave taken. The project uses the official National Holidays API, then calculates the best days from there.",
+    "Image": "vue-calendar.png",
+    "StaticImage": "vue-calendar.png",
+    "Link": "https://daystobook.netlify.app/"
+  },
+  {
+    "Name": "Rhythm-Based Runner",
+    "Description": "This rhythm-based runner game was made in Unity and C#. The game was made with the intention of it being played on mobile devices, and so features a portrait game screen and simple swipe controls. Development for the game started in late November 2019, and completed development in March 2020.",
+    "Image": "rhythm-runner.gif",
+    "StaticImage": "rhythm-runner-static.png",
+    "Link": "https://github.com/DanRLBailey/mobile-rhythm-runner"
+  },
+  {
+    "Name": "FYP",
+    "Description": "The artefact for my Final Year Project of University. Originally made using UE4, but switched to using Unity half way through due to engine difficulties. This project was made with a focus on accessibility for motor impaired players, predominantly by using single input controls. These controls consisted of buttons, microphones, and a range of other input devices that were planned. Development for the project started in January 2020, and this build was completed in May 2020.",
+    "Image": "fyp.gif",
+    "StaticImage": "fyp-static.png",
+    "Link": "https://github.com/DanRLBailey/final-year-project"
+  },
+  {
+    "Name": "D'Litas",
+    "Description": "A cakes & catering company's ecommerce website. Made originally using HTML & CSS, then later converted to be compatible with wordpress.",
+    "Image": "dlitas.png",
+    "StaticImage": "dlitas.png",
+    "Link": "https://dlitas.netlify.app/"
+  },
+  {
+    "Name": "Bullet Hell",
+    "Description": "A game made during the first 6 weeks of the second year of university in the TGP (Technical Games Production) module. It was made using Unreal Engine 4 with mostly C++ and some blueprints.",
+    "Image": "tgp.gif",
+    "StaticImage": "tgp-static.png",
+    "Link": "https://github.com/DanRLBailey/TGPSolo"
+  }
+]

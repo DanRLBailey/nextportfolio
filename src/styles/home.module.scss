@@ -1,0 +1,64 @@
+.container {
+  .section {
+    width: 70vw;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding-top: 30vh;
+
+    .main {
+      h1 {
+        font-size: 5rem;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-top: 0;
+      }
+
+      .links {
+        width: 100%;
+        margin-bottom: 2rem;
+
+        a {
+          &:not(:first-child) {
+            @media (min-width: 767px) {
+              margin-left: 1rem;
+            }
+
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .tiles {
+      display: grid;
+      gap: 2.5rem;
+
+      @media (min-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .timeline {
+      width: 70%;
+      margin: 0 auto;
+      padding-bottom: 1rem;
+    }
+
+    .projects {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 1rem;
+
+      @media (min-width: 900px) {
+        width: 50%;
+      }
+
+      @media (min-width: 1200px) {
+        width: 70%;
+      }
+    }
+  }
+}

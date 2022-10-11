@@ -1,0 +1,31 @@
+[
+  {
+    "Title": "Started University",
+    "Subtitle": "Games Development",
+    "Location": "Staffordshire Uni",
+    "Date": "September 2016"
+  },
+  {
+    "Title": "Graduated",
+    "Location": "Staffordshire Uni",
+    "Date": "June 2020"
+  },
+  {
+    "Title": "Started Full-Time",
+    "Subtitle": "Graduate Developer",
+    "Location": "Bep Systems/Finova",
+    "Date": "February 2021"
+  },
+  {
+    "Title": "Promotion!",
+    "Subtitle": "Developer",
+    "Location": "Bep Systems/Finova",
+    "Date": "July 2022"
+  },
+  {
+    "Title": "Started Full-Time",
+    "Subtitle": "Developer",
+    "Location": "OpenMoney",
+    "Date": "November 2022"
+  }
+]

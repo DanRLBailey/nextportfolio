@@ -1,0 +1,59 @@
+.button {
+  $clipPathAmount: 1rem;
+  $clipPath: polygon(
+    #{$clipPathAmount} 0%,
+    100% 0%,
+    calc(100% - #{$clipPathAmount}) 100%,
+    0% 100%
+  );
+
+  position: relative;
+  color: #66a3ff;
+  transition: 0.3s ease;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  clip-path: $clipPath;
+  background-color: #66a3ff;
+
+  span {
+    position: relative;
+    z-index: 1;
+  }
+
+  &::before {
+    $borderWidth: 2px;
+    content: "";
+    position: absolute;
+    top: $borderWidth;
+    left: $borderWidth;
+    width: calc(100% - #{$borderWidth} * 2);
+    height: calc(100% - #{$borderWidth} * 2);
+    clip-path: $clipPath;
+    background-color: #131216;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+  }
+
+  &::after {
+    background: #66a3ff;
+    width: 0;
+  }
+
+  &:hover {
+    color: #131216;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.tile {
+  $spacing: 1rem;
+
+  border: 2px solid white;
+  padding: 0 $spacing $spacing $spacing;
+
+  h1 {
+    margin-top: -$spacing;
+
+    span {
+      background: #131216;
+      position: relative;
+      padding: 0 calc(#{$spacing} + (#{$spacing} / 4)) 0 $spacing;
+
+      &::before,
+      &::after {
+        content: "";
+        background: #131216;
+        position: absolute;
+        width: $spacing;
+        height: 80%;
+        top: 10%;
+        right: 0;
+        border-right: 2px solid white;
+        transform: skew(-20deg);
+      }
+
+      &::before {
+        z-index: 1;
+      }
+
+      &::after {
+        right: -$spacing * 0.75;
+      }
+    }
+  }
+
+  ul {
+    li {
+      font-size: 1.5rem;
+    }
+  }
+}

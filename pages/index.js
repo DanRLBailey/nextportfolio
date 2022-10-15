@@ -64,7 +64,6 @@ export default function Home() {
               <li>Unreal Engine 4</li>
               <li>Unity 2D, 3D</li>
               <li>PC, Console, Mobile</li>
-              <li>OpenGL</li>
             </ul>
           </Tile>
         </div>

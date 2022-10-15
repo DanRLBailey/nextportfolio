@@ -33,7 +33,7 @@ export default function Home() {
               text="LinkedIn"
             />
           </div>
-          <Button id="projects" link="#projects" text="View Projects" />
+          <Button id="projectsButton" link="#projects" text="View Projects" />
         </div>
       </div>
 

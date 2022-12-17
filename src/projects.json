@@ -1,5 +1,12 @@
 [
   {
+    "Name": "Guitar Songs",
+    "Description": "This project, made with NextJS shows a list of songs and their respective chords timings. These songs show the associated chords for learning on guitar",
+    "Image": "guitar.png",
+    "StaticImage": "guitar.png",
+    "Link": "https://guitar-tabs.netlify.app/"
+  },
+  {
     "Name": "Vue Holidays",
     "Description": "A Vue project that shows the best days to book holidays, and maximise time off vs annual leave taken. The project uses the official National Holidays API, then calculates the best days from there.",
     "Image": "vue-calendar.png",

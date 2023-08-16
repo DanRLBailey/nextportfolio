@@ -14,6 +14,7 @@ export default function Project({ name, description, image, link }) {
           <Button
             link={link}
             text={link.includes("git") ? "View Repository" : "View Demo"}
+            blank={true}
           ></Button>
         )}
       </div>

@@ -2,13 +2,7 @@ import styles from "../styles/project.module.scss";
 import Button from "./button";
 import Image from "next/image";
 
-export default function Project({
-  name,
-  description,
-  image,
-  staticImage,
-  link,
-}) {
+export default function Project({ name, description, image, link }) {
   return (
     <div className={styles.project}>
       <div className={styles.projectDetails}>
@@ -16,7 +10,12 @@ export default function Project({
           <span>{name}</span>
         </h1>
         <div className={styles.description}>{description}</div>
-        {link && <Button link={link} text="View More"></Button>}
+        {link && (
+          <Button
+            link={link}
+            text={link.includes("git") ? "View Repository" : "View Demo"}
+          ></Button>
+        )}
       </div>
       <div className={styles.projectImage}>
         {image && (
@@ -24,13 +23,7 @@ export default function Project({
             className={styles.image}
             src={`/images/${image}`}
             layout="fill"
-          />
-        )}
-        {staticImage && (
-          <Image
-            className={styles.staticImage}
-            src={`/images/${staticImage}`}
-            layout="fill"
+            alt={`Image depicting a screenshot of ${name}`}
           />
         )}
       </div>

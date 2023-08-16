@@ -88,15 +88,16 @@
       height: 100%;
     }
 
-    .staticImage {
-      filter: grayscale(100%);
+    .image {
       transition: 0.3s ease;
+      filter: grayscale(100%);
     }
   }
 
   &:hover {
-    .staticImage {
-      opacity: 0;
+    .image {
+      filter: none;
+      //opacity: 0;
     }
   }
 }

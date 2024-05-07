@@ -21,10 +21,10 @@ export default function Home() {
       <div className={styles.section} id="home">
         <div className={styles.main}>
           <h1 className={styles.title}>Daniel Bailey</h1>
-          <h2>Software & Game Developer</h2>
+          <h2>Web & Software Developer</h2>
           <div className={styles.links}>
             <HeaderButton
-              link="https://drive.google.com/file/d/100tveRZfDwvgBSJ_8fx2Og2hiRMgO9Ih/view?usp=sharing"
+              link="https://drive.google.com/file/d/12DIHV-GIynUTGjq4QbAZNQsWsyez99w4/view?usp=sharing"
               text="CV"
             />
             <HeaderButton link="https://github.com/DanRLBailey" text="GitHub" />
@@ -39,6 +39,16 @@ export default function Home() {
 
       <div className={styles.section} id="skills">
         <div className={styles.tiles}>
+          <Tile header="Web">
+            <ul>
+              <li>HTML</li>
+              <li>CSS, SASS</li>
+              <li>JavaScript, TypeScript</li>
+              <li>React, Vue</li>
+              <li>REST</li>
+              <li>Jest, xUnit, Selenium</li>
+            </ul>
+          </Tile>
           <Tile header="Software">
             <ul>
               <li>C#</li>
@@ -47,15 +57,6 @@ export default function Home() {
               <li>SQL</li>
               <li>TDD, BDD</li>
               <li>MVC</li>
-            </ul>
-          </Tile>
-          <Tile header="Web">
-            <ul>
-              <li>HTML</li>
-              <li>CSS, SASS</li>
-              <li>JavaScript, TypeScript</li>
-              <li>React, Vue</li>
-              <li>REST</li>
             </ul>
           </Tile>
           <Tile header="Game">

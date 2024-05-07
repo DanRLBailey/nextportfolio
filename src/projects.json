@@ -1,9 +1,9 @@
 [
   {
-    "Name": "Guitar Tabs",
-    "Description": "This project, made with NextJS shows a list of songs and their respective chords timings. These songs show the associated chords for learning on guitar.",
-    "Image": "guitar.png",
-    "Link": "https://guitar-tabs.netlify.app/"
+    "Name": "Musical Chairs",
+    "Description": "A project made in NextJS to help learn guitar songs. Shows a song's lyrics, chords & tabs, as well as their respective timings. Scrolls the song along with the music and highlights the relevant information",
+    "Image": "musical-chairs.png",
+    "Link": "https://musical-chairs.netlify.app/"
   },
   {
     "Name": "Vue Holidays",

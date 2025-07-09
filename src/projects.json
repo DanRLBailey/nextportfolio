@@ -3,19 +3,13 @@
     "Name": "Musical Chairs",
     "Description": "A project made in NextJS to help learn guitar songs. Shows a song's lyrics, chords & tabs, as well as their respective timings. Scrolls the song along with the music and highlights the relevant information",
     "Image": "musical-chairs.png",
-    "Link": "https://musical-chairs.netlify.app/"
+    "Link": "https://musicalchairs.dbailey.dev/"
   },
   {
     "Name": "Vue Holidays",
     "Description": "A Vue project that shows the best days to book holidays, and maximise time off vs annual leave taken. The project uses the official National Holidays API, then calculates the best days from there.",
     "Image": "vue-calendar.png",
     "Link": "https://daystobook.netlify.app/"
-  },
-  {
-    "Name": "PTO Tracker",
-    "Description": "A Vue project that tracks holidays that are booked off work. Connects and stores values on a hosted AWS database. Can add/delete/update scheduled pto through the frontend.",
-    "Image": "pto-tracker.png",
-    "Link": "https://pto-tracker.netlify.app"
   },
   {
     "Name": "Rhythm-Based Runner",
@@ -36,7 +30,7 @@
     "Link": "https://dlitas.netlify.app/"
   },
   {
-    "Name": "Bullet Hell",
+    "Name": "Manic Shooter",
     "Description": "A game made during the first 6 weeks of the second year of university in the TGP (Technical Games Production) module. It was made using Unreal Engine 4 with mostly C++ and some blueprints.",
     "Image": "tgp.png",
     "Link": "https://github.com/DanRLBailey/TGPSolo"

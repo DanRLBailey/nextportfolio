@@ -24,7 +24,7 @@ export default function Home() {
           <h2>Web & Software Developer</h2>
           <div className={styles.links}>
             <HeaderButton
-              link="https://drive.google.com/file/d/1GHsurB6o_MERD9pnscewmz9C-Q-gr92x/view?usp=drive_link"
+              link="https://drive.google.com/file/d/1YR1OEwEZWY7dLSXX8_pc-DegLavpFgx_/view?usp=sharing"
               text="CV"
             />
             <HeaderButton link="https://github.com/DanRLBailey" text="GitHub" />
@@ -42,24 +42,26 @@ export default function Home() {
           <Tile header="Web">
             <ul>
               <li>HTML</li>
-              <li>CSS, SASS</li>
+              <li>React, Vue, SvelteKit</li>
               <li>JavaScript, TypeScript</li>
-              <li>React, Vue</li>
+              <li>AWS, Terraform, Docker</li>
+              <li>Vitest, Jest, xUnit, Selenium</li>
+              <li>CSS, SASS</li>
               <li>REST</li>
-              <li>Jest, xUnit, Selenium</li>
             </ul>
           </Tile>
           <Tile header="Software">
             <ul>
               <li>C#</li>
               <li>.Net Core, Framework</li>
+              <li>Java, Spring Boot</li>
               <li>WebAPI</li>
               <li>SQL</li>
               <li>TDD, BDD</li>
               <li>MVC</li>
             </ul>
           </Tile>
-          <Tile header="Game">
+          <Tile header="Games">
             <ul>
               <li>C++</li>
               <li>Unreal Engine 4</li>

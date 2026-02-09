@@ -24,7 +24,7 @@ export default function Home() {
           <h2>Web & Software Developer</h2>
           <div className={styles.links}>
             <HeaderButton
-              link="https://drive.google.com/file/d/1YR1OEwEZWY7dLSXX8_pc-DegLavpFgx_/view?usp=sharing"
+              link="https://drive.google.com/file/d/1piQlVBi1FtH2EVaSmb6zkBNC6Cc3pHk0/view?usp=sharing"
               text="CV"
             />
             <HeaderButton link="https://github.com/DanRLBailey" text="GitHub" />

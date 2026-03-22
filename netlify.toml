@@ -1,2 +1,7 @@
 [build]
   command = "npm uninstall sharp && npm install --platform=linux --arch=x64 --libc=glibc sharp && npm run build"
+[[redirects]]
+  from = "https://karaoke.dbailey.dev/*"
+  to = "https://karaoke.kittdans.cloud/:splat"
+  status = 200
+  force = true

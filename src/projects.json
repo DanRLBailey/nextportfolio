@@ -6,8 +6,14 @@
     "Link": "https://musicalchairs.dbailey.dev/"
   },
   {
-    "Name": "Vue Holidays",
-    "Description": "A Vue project that shows the best days to book holidays, and maximise time off vs annual leave taken. The project uses the official National Holidays API, then calculates the best days from there.",
+    "Name": "Karaoke",
+    "Description": "React wrapper around YouTube karaoke videos. Fetches video information in the background at startup for optimised search, and fetches actual videos when added to queue. Mobile friendly for joining, desktop recommended for hosting",
+    "Image": "karaoke.png",
+    "Link": "https://karaoke.dbailey.dev"
+  },
+  {
+    "Name": "Vue Holiday Calendar",
+    "Description": "A Vue project that shows the best days to book holidays, based off bank holidays. Using the official National Holidays API, then calculates the best days from there.",
     "Image": "vue-calendar.png",
     "Link": "https://daystobook.netlify.app/"
   },
@@ -18,16 +24,16 @@
     "Link": "https://github.com/DanRLBailey/mobile-rhythm-runner"
   },
   {
+    "Name": "D'Litas",
+    "Description": "A cakes & catering company's ecommerce website. Made originally using HTML & CSS only, then later converted to be compatible with wordpress.",
+    "Image": "dlitas.png",
+    "Link": "https://dlitas.netlify.app/"
+  },
+  {
     "Name": "FYP",
     "Description": "The artefact for my Final Year Project of University. Originally made using UE4, but switched to using Unity half way through due to engine difficulties. This project was made with a focus on accessibility for motor impaired players, predominantly by using single input controls. These controls consisted of buttons, microphones, and a range of other input devices that were planned. Development for the project started in January 2020, and this build was completed in May 2020.",
     "Image": "fyp.png",
     "Link": "https://github.com/DanRLBailey/final-year-project"
-  },
-  {
-    "Name": "D'Litas",
-    "Description": "A cakes & catering company's ecommerce website. Made originally using HTML & CSS, then later converted to be compatible with wordpress.",
-    "Image": "dlitas.png",
-    "Link": "https://dlitas.netlify.app/"
   },
   {
     "Name": "Manic Shooter",

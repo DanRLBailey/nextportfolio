@@ -29,7 +29,7 @@ export default function Home() {
             />
             <HeaderButton link="https://github.com/DanRLBailey" text="GitHub" />
             <HeaderButton
-              link="https://www.linkedin.com/in/daniel-bailey-289979162/"
+              link="https://www.linkedin.com/in/danrbailey/"
               text="LinkedIn"
             />
           </div>

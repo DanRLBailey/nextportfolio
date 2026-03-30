@@ -12,6 +12,12 @@
     "Link": "https://karaoke.dbailey.dev"
   },
   {
+    "Name": "Minesweeper",
+    "Description": "Minesweeper, recreated in Sveltekit",
+    "Image": "minesweeper.png",
+    "Link": "https://minesweeper.dbailey.dev"
+  },
+  {
     "Name": "Vue Holiday Calendar",
     "Description": "A Vue project that shows the best days to book holidays, based off bank holidays. Using the official National Holidays API, then calculates the best days from there.",
     "Image": "vue-calendar.png",

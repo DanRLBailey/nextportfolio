@@ -5,3 +5,8 @@
   to = "https://karaoke.kittdans.cloud/:splat"
   status = 200
   force = true
+[[redirects]]
+  from = "https://minesweeper.dbailey.dev/*"
+  to = "https://minesweeper.kittdans.cloud/:splat"
+  status = 200
+  force = true
